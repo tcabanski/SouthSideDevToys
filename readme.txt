@@ -13,7 +13,8 @@ schemaSync:  An NAnt task to do database schema syncronization between a databas
 DDL files using RedGate SQL Compare.  SQL Compare API files required to make this work are covered by a commercial license and
 will require purchase after a demo period.  Contact RedGate at http://www.red-gate.com for information.
 
-The use of schemaSync is described in my blog at http://tomcabanski.spaces.live.com/blog/cns!E0D3617496209F45!144.entry.
+The use of schemaSync is described in my blog at
+http://tomcabanski.spaces.live.com/blog/cns!E0D3617496209F45!144.entry.
 
 ReSharper
 --------------
