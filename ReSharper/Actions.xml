@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<actions>
+ 	<action id="SouthSideSharper.SortEnumByName" text="Sort Enum by Name"/>
+  
+  <insert group-id="Refactor" position="last">
+    <separator />
+	  <action-ref id="SouthSideSharper.SortEnumByName"/>
+    <separator />
+  </insert>
+</actions>

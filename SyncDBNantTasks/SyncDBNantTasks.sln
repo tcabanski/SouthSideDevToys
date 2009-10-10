@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDBNantTasks", "SyncDBNantTasks.csproj", "{1BF54D50-5F2B-4913-BE36-19FA8B9899C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{867F9134-80EC-403B-9E67-74342FD8CA6C}"
+	ProjectSection(SolutionItems) = preProject
+		lib\NAnt.Core.dll = lib\NAnt.Core.dll
+		lib\RedGate.Licensing.Client.dll = lib\RedGate.Licensing.Client.dll
+		lib\RedGate.Shared.SQL.dll = lib\RedGate.Shared.SQL.dll
+		lib\RedGate.Shared.SQL.xml = lib\RedGate.Shared.SQL.xml
+		lib\RedGate.Shared.Utils.dll = lib\RedGate.Shared.Utils.dll
+		lib\RedGate.Shared.Utils.xml = lib\RedGate.Shared.Utils.xml
+		lib\RedGate.SQLCompare.ASTParser.dll = lib\RedGate.SQLCompare.ASTParser.dll
+		lib\RedGate.SQLCompare.Engine.dll = lib\RedGate.SQLCompare.Engine.dll
+		lib\RedGate.SQLCompare.Engine.xml = lib\RedGate.SQLCompare.Engine.xml
+		lib\RedGate.SQLCompare.Rewriter.dll = lib\RedGate.SQLCompare.Rewriter.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B46A2DF-64F2-4B00-92C4-7DE1DC32F623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{74E868E6-FBC3-48B1-ABFE-09B5671EC4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF54D50-5F2B-4913-BE36-19FA8B9899C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF54D50-5F2B-4913-BE36-19FA8B9899C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF54D50-5F2B-4913-BE36-19FA8B9899C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF54D50-5F2B-4913-BE36-19FA8B9899C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E868E6-FBC3-48B1-ABFE-09B5671EC4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E868E6-FBC3-48B1-ABFE-09B5671EC4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E868E6-FBC3-48B1-ABFE-09B5671EC4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E868E6-FBC3-48B1-ABFE-09B5671EC4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
